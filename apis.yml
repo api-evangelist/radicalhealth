@@ -1,8 +1,32 @@
 aid: radicalhealth
-name: Radicalhealth
-description: Radicalhealth is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radicalhealth.png
+name: Radical Health
+description: >-
+  Radical Health is a Khosla Ventures-backed healthcare AI company that produces
+  personalized, expert-reviewed cancer treatment reports for patients in the
+  United States. Its platform ingests a patient's medical records and synthesizes
+  oncology research, clinical trials, and prior patient outcomes into a tailored
+  report within days, drawing on 5.3 million research papers, 11.8 million patient
+  journeys, 20,000 treatment options, and 48,800+ active US clinical trials. The
+  service pairs an always-on AI nurse navigator ("Alice") with human oncology
+  oversight from institutions including UCLA, Johns Hopkins, Stanford, and Kaiser
+  Permanente, and connects to 70,000+ US healthcare institutions (Epic, Kaiser,
+  Ascension, HCA, Medicare) for records access. Reports are informational and
+  educational only, not medical advice. Radical Health is HIPAA and SOC 2 Type II
+  certified and operates as a consumer subscription product ($110/month with a
+  7-day free trial); it does not currently publish a public developer API, SDK,
+  or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/radicalhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +36,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Oncology
+- Artificial Intelligence
+- Clinical Trials
+- Patient Care
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,36 @@ maintainers:
 common:
 - type: Website
   url: https://radicalhealth.ai/
+- type: SignUp
+  url: https://platform.radicalhealth.ai/register
+- type: Login
+  url: https://platform.radicalhealth.ai/login
+- type: Pricing
+  url: https://radicalhealth.ai/
+- type: Blog
+  url: https://radicalhealth.ai/blog
+- type: TermsOfService
+  url: https://platform.radicalhealth.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://platform.radicalhealth.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/radicalhealth-llms.txt
+- type: WellKnown
+  url: well-known/radicalhealth-well-known.yml
+- type: SecurityTxt
+  url: well-known/radicalhealth-security.txt
+- type: DomainSecurity
+  url: security/radicalhealth-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/radicalhealth-vulnerability-disclosure.yml
+- type: Security
+  url: https://radicalhealth.ai/.well-known/security.txt
+- type: TrustCenter
+  url: security/radicalhealth-trust-center.yml
+- type: Compliance
+  url: security/radicalhealth-trust-center.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

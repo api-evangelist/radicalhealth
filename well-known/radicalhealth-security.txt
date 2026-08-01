@@ -1,0 +1,8 @@
+# Security contact for Radical Health (radicalhealth.ai)
+# Report suspected vulnerabilities to the contact below. Thank you for
+# disclosing responsibly. Format: RFC 9116 (https://www.rfc-editor.org/rfc/rfc9116).
+
+Contact: mailto:contact@radicalhealth.ai
+Expires: 2027-06-23T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://radicalhealth.ai/.well-known/security.txt

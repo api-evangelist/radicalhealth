@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://radicalhealth.ai/llms.txt
+notes: >-
+  Radical Health has no dedicated trust.* / security.* subdomain or trust-center
+  page; the compliance posture below is published on the company's own surface
+  (homepage "Trust signals" and /llms.txt). Certifications recorded verbatim as
+  claimed by the provider — not independently verified.
+url: https://radicalhealth.ai/
+certifications:
+- HIPAA
+- SOC 2 Type II
+evidence:
+- source: https://radicalhealth.ai/llms.txt
+  keywords: [HIPAA, SOC 2 Type II certified]
+- source: https://radicalhealth.ai/
+  keywords: [security and privacy compliance certifications]

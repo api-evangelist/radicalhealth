@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of /.well-known/ on radicalhealth.ai and platform.radicalhealth.ai
+notes: >-
+  platform.radicalhealth.ai is a client-rendered SPA that returns HTTP 200 with
+  the application HTML shell for every path (including /.well-known/*), so its
+  openid-configuration / oauth-authorization-server / api-catalog / ai-plugin.json
+  "200" responses are catch-all false positives, not real discovery documents.
+  Only the security.txt on the root host is a genuine well-known document.
+host: https://radicalhealth.ai
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: radicalhealth-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
